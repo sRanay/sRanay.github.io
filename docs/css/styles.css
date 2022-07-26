@@ -11704,3 +11704,18 @@ body {
 .footer {
   padding: 5rem 0;
 }
+
+#fade-in-text {
+  animation: fadeIn 5s;
+}
+
+#fade-in-text-about-me {
+  opacity: 0;
+  animation: fadeIn 5s 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
